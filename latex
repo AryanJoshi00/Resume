@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage{harvard}
+\usepackage[margin=1in]{geometry}
+
+\makeatletter
+\renewcommand{\@maketitle}{
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{center}%
+    \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1.5em%
+    {\large
+      \lineskip .5em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 1em%
+    \hrule
+    \vskip 1em
+     Phone: 8898077775
+    \vskip 1em
+    Email: joshiaryan809@gmail.com
+      \vskip 1em
+    LinkedIn: https://www.linkedin.com/in/aryan-joshi-083321285/
+      \vskip 1em
+    GitHub: https://github.com/AryanJoshi00
+  \end{center}%
+  \par
+  \vskip 1.5em}
+\makeatother
+
+\begin{document}
+
+\title{Aryan Joshi}
+\author{Resume}
+\maketitle
+\hrulefill
+\section*{Objective}
+A creative and driven undergraduate student with a passion for Computer Engineering, seeking opportunities to apply and expand knowledge in software development, particularly in the areas of IoT, Cyber Security, and Blockchain.
+\vskip 1em
+\hrule
+\section*{Education}
+\textbf{Bachelor of Technology (BTech) in Computer Science}\\
+Dwarkadas J. Sanghvi College of Engineering\\
+August 2023 - July 2027
+
+\textbf{Secondary School}\\
+SMT H.M. Nanavati English High School\\
+June 2012 - July 2021
+\vskip 1em
+\hrule
+\section*{Key Skills}
+\begin{itemize}
+    \item Creative Writing
+    \item Analytical Thinking
+    \item Time Management
+    \item Problem Solving
+    \item Excellent Communication
+    \item HTML \& CSS
+    \item Multitasking
+\end{itemize}
+\hrulefill
+\section*{Interests}
+\begin{itemize}
+    \item Coding
+    \item Chess
+    \item Basketball
+\end{itemize}
+\vskip 1em
+\hrule
+\section*{Projects}
+\begin{enumerate}
+    \item \textbf{Web Development Project}\\
+    Created a personal portfolio website using HTML and CSS to showcase projects, skills, and achievements.
+    Created a responsive website
+    
+    \item \textbf{AI X and 0}\\
+    Implemented a basic blockchain structure in Python to understand the fundamentals of AI
+\end{enumerate}
+\vskip 1em
+\hrule
+\section*{Additional Information}
+\begin{itemize}
+    \item Proficient in programming languages such as C and Python.
+    \item Currently learning about IoT, Cyber Security, and Blockchain.
+    \item Able to work independently and in a team environment.
+    \item Constantly seeking opportunities for learning and self-improvement.
+\end{itemize}
+
+\end{document}
